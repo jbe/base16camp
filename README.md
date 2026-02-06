@@ -1,10 +1,10 @@
 # base16camp
 
-Preview [303 base16 schemes](https://github.com/tinted-theming/schemes) in a simulated [Hyprland](https://hyprland.org) desktop. Star favorites and compare.
+Preview [303 base16 schemes](https://github.com/tinted-theming/schemes) in a simulated [Hyprland](https://hyprland.org) desktop in the browser. Star favorites and compare.
 
-**[→ View base16 previews](https://jbe.github.io/base16camp)**
+**[→ Go to previewer](https://jbe.github.io/base16camp)**
 
-![Screenshot](preview.png)
+[![Screenshot](preview.png)](https://jbe.github.io/base16camp)
 
 No build step. Just open `index.html`. Code mostly not read by human.
 
