@@ -1,0 +1,10 @@
+{
+  "name": "base16camp",
+  "type": "module",
+  "scripts": {
+    "sync": "bun sync-schemes.ts"
+  },
+  "dependencies": {
+    "yaml": "^2.3.4"
+  }
+}
