@@ -137,10 +137,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1px;
+  gap: 0;
   padding-left: 12px;
   border-left: 1px solid var(--base02);
-  line-height: 1.2;
+  line-height: 1.1;
   text-decoration: none;
 }
 
@@ -1529,7 +1529,7 @@ body {
 }
 
 .theme-item:hover {
-  box-shadow: inset 0 0 0 1px var(--base03);
+  background: var(--base01);
 }
 
 .theme-item.active {
@@ -1824,6 +1824,10 @@ body {
   
   /* Settings: inline in mobile layout */
   .window-settings {
+    position: static !important;
+    left: auto !important;
+    top: auto !important;
+    transform: none !important;
     width: 100%;
     max-width: none;
     max-height: calc(100vh - var(--bar-height) - var(--gap) * 2 - 80px);

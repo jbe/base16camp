@@ -14,16 +14,10 @@ let currentSort = localStorage.getItem('base16camp-sort') || 'name';
 const curatedThemes = [
   'ayu-dark',
   'ayu-mirage',
-  'black-metal-gorgoroth',
-  'catppuccin-frappe',
-  'catppuccin-latte',
-  'catppuccin-macchiato',
-  'catppuccin-mocha',
   'dracula',
   'equilibrium-gray-light',
   'everforest',
   'everforest-dark-hard',
-  'flexoki-light',
   'gruvbox-dark-hard',
   'gruvbox-dark-medium',
   'gruvbox-light-hard',
@@ -271,9 +265,14 @@ function setupEventListeners() {
   // Settings panel toggle
   const overlay = document.getElementById('settings-overlay');
   const toggle = document.getElementById('settings-toggle');
+  const closeBtn = document.getElementById('settings-close');
   
   toggle.addEventListener('click', () => {
     overlay.classList.toggle('hidden');
+  });
+  
+  closeBtn.addEventListener('click', () => {
+    overlay.classList.add('hidden');
   });
   
   // Search
@@ -903,6 +902,24 @@ function setupDraggableSettings() {
   let offsetX = 0;
   let offsetY = 0;
   
+  // Constrain window fully within viewport
+  function constrainToViewport() {
+    if (window.style.position !== 'fixed') return;
+    
+    const rect = window.getBoundingClientRect();
+    const vw = document.documentElement.clientWidth;
+    const vh = document.documentElement.clientHeight;
+    
+    let left = rect.left;
+    let top = rect.top;
+    
+    left = Math.max(0, Math.min(vw - rect.width, left));
+    top = Math.max(0, Math.min(vh - rect.height, top));
+    
+    window.style.left = left + 'px';
+    window.style.top = top + 'px';
+  }
+  
   handle.addEventListener('mousedown', (e) => {
     isDragging = true;
     const rect = window.getBoundingClientRect();
@@ -910,7 +927,7 @@ function setupDraggableSettings() {
     offsetY = e.clientY - rect.top;
     
     // Switch to fixed positioning if not already
-    if (!window.style.position || window.style.position !== 'fixed') {
+    if (window.style.position !== 'fixed') {
       window.style.position = 'fixed';
       window.style.left = rect.left + 'px';
       window.style.top = rect.top + 'px';
@@ -924,17 +941,15 @@ function setupDraggableSettings() {
     if (!isDragging) return;
     
     const rect = window.getBoundingClientRect();
-    const viewportWidth = document.documentElement.clientWidth;
-    const viewportHeight = document.documentElement.clientHeight;
+    const vw = document.documentElement.clientWidth;
+    const vh = document.documentElement.clientHeight;
     
-    // Calculate new position
     let newLeft = e.clientX - offsetX;
     let newTop = e.clientY - offsetY;
     
-    // Constrain to viewport (keep at least 100px visible)
-    const minVisible = 100;
-    newLeft = Math.max(-rect.width + minVisible, Math.min(viewportWidth - minVisible, newLeft));
-    newTop = Math.max(0, Math.min(viewportHeight - minVisible, newTop));
+    // Keep fully within viewport
+    newLeft = Math.max(0, Math.min(vw - rect.width, newLeft));
+    newTop = Math.max(0, Math.min(vh - rect.height, newTop));
     
     window.style.left = newLeft + 'px';
     window.style.top = newTop + 'px';
@@ -943,6 +958,9 @@ function setupDraggableSettings() {
   document.addEventListener('mouseup', () => {
     isDragging = false;
   });
+  
+  // Re-constrain on viewport resize
+  globalThis.addEventListener('resize', constrainToViewport);
 }
 
 // Radio player
