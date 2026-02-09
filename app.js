@@ -1,14 +1,17 @@
 // Base16 Camp - Theme Previewer
 
 let schemes = {};
-let currentScheme = localStorage.getItem('base16camp-theme') || 'everforest-dark-hard';
+// URL param overrides localStorage
+const urlParams = new URLSearchParams(window.location.search);
+const urlTheme = urlParams.get('theme');
+let currentScheme = urlTheme || localStorage.getItem('base16camp-theme') || 'everforest-dark-hard';
 let currentFilter = localStorage.getItem('base16camp-filter') || 'all';
 let favorites = JSON.parse(localStorage.getItem('base16camp-faves') || '[]');
 let hideInvalidThemes = localStorage.getItem('base16camp-valid-only') !== 'false';
+let currentSort = localStorage.getItem('base16camp-sort') || 'name';
 
 // Hand-picked curated themes
 const curatedThemes = [
-  'atelier-plateau-light',
   'ayu-dark',
   'ayu-mirage',
   'black-metal-gorgoroth',
@@ -21,17 +24,10 @@ const curatedThemes = [
   'everforest',
   'everforest-dark-hard',
   'flexoki-light',
-  'gruvbox-dark',
   'gruvbox-dark-hard',
   'gruvbox-dark-medium',
-  'gruvbox-dark-pale',
-  'gruvbox-dark-soft',
-  'gruvbox-light',
   'gruvbox-light-hard',
   'gruvbox-light-medium',
-  'gruvbox-light-soft',
-  'ia-dark',
-  'ia-light',
   'kanagawa',
   'mocha',
   'nord',
@@ -139,6 +135,11 @@ function applyTheme(schemeKey) {
   currentScheme = schemeKey;
   localStorage.setItem('base16camp-theme', schemeKey);
   
+  // Update URL for sharing (without adding to history)
+  const url = new URL(window.location);
+  url.searchParams.set('theme', schemeKey);
+  window.history.replaceState({}, '', url);
+  
   // Update UI
   document.getElementById('theme-widget-label').textContent = scheme.name;
   
@@ -202,7 +203,14 @@ function populateThemeList() {
       }
       return true;
     })
-    .sort((a, b) => a[1].name.localeCompare(b[1].name))
+    .sort((a, b) => {
+      if (currentSort === 'variant') {
+        // Sort by variant (dark first), then name
+        const variantCompare = (a[1].variant || '').localeCompare(b[1].variant || '');
+        if (variantCompare !== 0) return variantCompare;
+      }
+      return a[1].name.localeCompare(b[1].name);
+    })
     .forEach(([key, scheme]) => {
       const item = document.createElement('div');
       item.className = `theme-item${key === currentScheme ? ' active' : ''}`;
@@ -298,6 +306,15 @@ function setupEventListeners() {
   hideInvalidCheckbox.addEventListener('change', (e) => {
     hideInvalidThemes = e.target.checked;
     localStorage.setItem('base16camp-valid-only', hideInvalidThemes);
+    populateThemeList();
+  });
+  
+  // Sort order
+  const sortSelect = document.getElementById('sort-order');
+  sortSelect.value = currentSort;
+  sortSelect.addEventListener('change', (e) => {
+    currentSort = e.target.value;
+    localStorage.setItem('base16camp-sort', currentSort);
     populateThemeList();
   });
   

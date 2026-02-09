@@ -5,19 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Base16 Camp - Theme Previewer</title>
-  <meta name="description" content="Preview base16 schemes in a simulated Hyprland desktop with terminal, editor, and file manager.">
+  <meta name="description"
+    content="Preview base16 schemes in a simulated Hyprland desktop with terminal, editor, and file manager.">
   <meta name="keywords" content="base16, color scheme, theme, preview, hyprland, linux, rice, terminal, neovim, stylix">
   <link rel="canonical" href="https://jbe.github.io/base16camp/">
-  
+
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Base16 Camp - Theme Previewer">
   <meta property="og:description" content="Preview base16 schemes in a simulated Hyprland desktop.">
   <meta property="og:image" content="https://jbe.github.io/base16camp/preview.png">
   <meta property="og:url" content="https://jbe.github.io/base16camp/">
-  
+
   <meta name="twitter:card" content="summary_large_image">
-  
+
   <link href="https://cdn.jsdelivr.net/npm/@fontsource/iosevka@5.0.4/400.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/@fontsource/iosevka@5.0.4/600.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
@@ -43,7 +44,7 @@
         <span class="workspace"></span>
       </div>
       <a class="active-window" href="https://github.com/jbe/base16camp" target="_blank" rel="noopener">
-        <span class="active-window-title">Base16 theme rice previewer</span>
+        <span class="active-window-title">Base16 theme previewer</span>
         <span class="active-window-desc">b16camp-previewer</span>
       </a>
     </div>
@@ -97,6 +98,52 @@
 
   <!-- Desktop / Tiling Area -->
   <main class="desktop">
+    <!-- Settings Panel (floating on desktop, inline on mobile) -->
+    <div class="settings-overlay" id="settings-overlay">
+      <section class="window window-settings" id="settings-window">
+        <div class="settings-content">
+          <div class="settings-header">
+            <div class="settings-search">
+              <i data-lucide="search" class="search-icon"></i>
+              <input type="text" id="theme-search" placeholder="Search themes..." autocomplete="off">
+            </div>
+            <button class="settings-btn" id="settings-fullscreen" title="Toggle fullscreen">
+              <i data-lucide="monitor" class="icon-expand"></i>
+              <i data-lucide="minimize-2" class="icon-shrink"></i>
+            </button>
+            <div class="settings-drag" id="settings-drag" title="Drag to move">
+              <i data-lucide="move"></i>
+            </div>
+          </div>
+          <div class="settings-filters">
+            <div class="filter-pill">
+              <button class="filter-seg active" data-filter="all">All</button>
+              <button class="filter-seg" data-filter="dark">Dark</button>
+              <button class="filter-seg" data-filter="light">Light</button>
+            </div>
+            <button class="filter-btn" data-filter="curated">Curated</button>
+            <button class="filter-btn" data-filter="faves"><i data-lucide="star"
+                class="filter-icon"></i>Favorites</button>
+            <label class="toggle-switch" title="Hide themes with poor text contrast">
+              <input type="checkbox" id="hide-invalid" checked>
+              <span class="toggle-slider"></span>
+              <span class="toggle-label">Valid only</span>
+            </label>
+          </div>
+          <div class="settings-options">
+            <div class="sort-control">
+              <label class="sort-label">Sort:</label>
+              <select id="sort-order" class="sort-select">
+                <option value="name">Name</option>
+                <option value="variant">Variant, Name</option>
+              </select>
+            </div>
+          </div>
+          <div class="theme-list" id="theme-list"></div>
+        </div>
+      </section>
+    </div>
+
     <!-- Left column -->
     <div class="left-column">
       <!-- Editor - Top left -->
@@ -276,43 +323,6 @@
       </section>
     </div>
   </main>
-
-  <!-- Floating Settings Panel -->
-  <div class="settings-overlay" id="settings-overlay">
-    <section class="window window-settings" id="settings-window">
-      <div class="settings-content">
-        <div class="settings-header">
-          <div class="settings-search">
-            <i data-lucide="search" class="search-icon"></i>
-            <input type="text" id="theme-search" placeholder="Search themes..." autocomplete="off">
-          </div>
-          <button class="settings-btn" id="settings-fullscreen" title="Toggle fullscreen">
-            <i data-lucide="monitor" class="icon-expand"></i>
-            <i data-lucide="minimize-2" class="icon-shrink"></i>
-          </button>
-          <div class="settings-drag" id="settings-drag" title="Drag to move">
-            <i data-lucide="move"></i>
-          </div>
-        </div>
-        <div class="settings-filters">
-          <div class="filter-pill">
-            <button class="filter-seg active" data-filter="all">All</button>
-            <button class="filter-seg" data-filter="dark">Dark</button>
-            <button class="filter-seg" data-filter="light">Light</button>
-          </div>
-          <button class="filter-btn" data-filter="curated">Curated</button>
-          <button class="filter-btn" data-filter="faves"><i data-lucide="star" class="filter-icon"></i>Faves</button>
-          <label class="toggle-switch" title="Hide themes with poor text contrast">
-            <input type="checkbox" id="hide-invalid" checked>
-            <span class="toggle-slider"></span>
-            <span class="toggle-label">Valid only</span>
-          </label>
-        </div>
-        <div class="theme-list" id="theme-list"></div>
-      </div>
-    </section>
-  </div>
-
 
   <!-- Notification Toast -->
   <div class="notification" id="notification">
