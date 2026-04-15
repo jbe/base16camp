@@ -2071,25 +2071,25 @@
   },
   "dracula": {
     "name": "Dracula",
-    "author": "Jamy Golden (http://github.com/JamyGolden), based on Dracula Theme (http://github.com/dracula)",
+    "author": "clach04 (https://github.com/clach04)",
     "variant": "dark",
     "colors": {
       "base00": "#282a36",
-      "base01": "#363447",
-      "base02": "#44475a",
+      "base01": "#21222c",
+      "base02": "#44475A",
       "base03": "#6272a4",
       "base04": "#9ea8c7",
       "base05": "#f8f8f2",
-      "base06": "#f0f1f4",
+      "base06": "#f8f8f2",
       "base07": "#ffffff",
       "base08": "#ff5555",
-      "base09": "#ffb86c",
+      "base09": "#FFB86C",
       "base0a": "#f1fa8c",
       "base0b": "#50fa7b",
       "base0c": "#8be9fd",
-      "base0d": "#80bfff",
+      "base0d": "#bd93f9",
       "base0e": "#ff79c6",
-      "base0f": "#bd93f9"
+      "base0f": "#993333"
     }
   },
   "edge-dark": {
@@ -2550,6 +2550,75 @@
       "base0d": "#7fbbb3",
       "base0e": "#d699b6",
       "base0f": "#9da9a0"
+    }
+  },
+  "everforest-light-hard": {
+    "name": "Everforest Light (Hard)",
+    "author": "Márcio Sobel (https://github.com/marciosobel)",
+    "variant": "light",
+    "colors": {
+      "base00": "#fffbef",
+      "base01": "#f8f5e4",
+      "base02": "#edeada",
+      "base03": "#939f91",
+      "base04": "#829181",
+      "base05": "#5c6a72",
+      "base06": "#414b50",
+      "base07": "#272e33",
+      "base08": "#f85552",
+      "base09": "#f57d26",
+      "base0a": "#dfa000",
+      "base0b": "#8da101",
+      "base0c": "#35a77c",
+      "base0d": "#3a94c5",
+      "base0e": "#df69ba",
+      "base0f": "#829181"
+    }
+  },
+  "everforest-light-medium": {
+    "name": "Everforest Light (Medium)",
+    "author": "Márcio Sobel (https://github.com/marciosobel)",
+    "variant": "light",
+    "colors": {
+      "base00": "#fdf6e3",
+      "base01": "#f4f0d9",
+      "base02": "#e6e2cc",
+      "base03": "#939f91",
+      "base04": "#829181",
+      "base05": "#5c6a72",
+      "base06": "#475258",
+      "base07": "#2d353b",
+      "base08": "#f85552",
+      "base09": "#f57d26",
+      "base0a": "#dfa000",
+      "base0b": "#8da101",
+      "base0c": "#35a77c",
+      "base0d": "#3a94c5",
+      "base0e": "#df69ba",
+      "base0f": "#829181"
+    }
+  },
+  "everforest-light-soft": {
+    "name": "Everforest Light (Soft)",
+    "author": "Márcio Sobel (https://github.com/marciosobel)",
+    "variant": "light",
+    "colors": {
+      "base00": "#f3ead3",
+      "base01": "#eae4ca",
+      "base02": "#ddd8be",
+      "base03": "#939f91",
+      "base04": "#829181",
+      "base05": "#5c6a72",
+      "base06": "#4d5960",
+      "base07": "#333c43",
+      "base08": "#f85552",
+      "base09": "#f57d26",
+      "base0a": "#dfa000",
+      "base0b": "#8da101",
+      "base0c": "#35a77c",
+      "base0d": "#3a94c5",
+      "base0e": "#df69ba",
+      "base0f": "#829181"
     }
   },
   "flat": {
