@@ -5956,6 +5956,52 @@
       "base0f": "#CC6633"
     }
   },
+  "swamp-dark": {
+    "name": "Swamp Dark",
+    "author": "Masroof Maindak (https://github.com/masroof-maindak)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#242015",
+      "base01": "#3A3124",
+      "base02": "#4D3F32",
+      "base03": "#5F4E41",
+      "base04": "#B8A58C",
+      "base05": "#D2C3A4",
+      "base06": "#EBE0BB",
+      "base07": "#F1E9D0",
+      "base08": "#DB930D",
+      "base09": "#EBE0BB",
+      "base0a": "#A82D56",
+      "base0b": "#7A7653",
+      "base0c": "#DB930D",
+      "base0d": "#C1666B",
+      "base0e": "#91506C",
+      "base0f": "#61A0A8"
+    }
+  },
+  "swamp-light": {
+    "name": "Swamp Light",
+    "author": "Masroof Maindak (https://github.com/masroof-maindak)",
+    "variant": "light",
+    "colors": {
+      "base00": "#F1E3D1",
+      "base01": "#DDCEBC",
+      "base02": "#C9B9A7",
+      "base03": "#B5A492",
+      "base04": "#A0907D",
+      "base05": "#64513E",
+      "base06": "#786653",
+      "base07": "#8C7B68",
+      "base08": "#D09700",
+      "base09": "#64513E",
+      "base0a": "#993333",
+      "base0b": "#908D6A",
+      "base0c": "#d09700",
+      "base0d": "#BF7979",
+      "base0e": "#9E5581",
+      "base0f": "#75858C"
+    }
+  },
   "synth-midnight-dark": {
     "name": "Synth Midnight Terminal Dark",
     "author": "Michaël Ball (http://github.com/michael-ball/)",
