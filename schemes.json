@@ -3840,6 +3840,52 @@
       "base0f": "#704F4F"
     }
   },
+  "kissa-latte": {
+    "name": "Kissa Latte",
+    "author": "rwendell (https://github.com/rwendell/kissa)",
+    "variant": "light",
+    "colors": {
+      "base00": "#F5F4F0",
+      "base01": "#E8E7E3",
+      "base02": "#D5D2CB",
+      "base03": "#91887D",
+      "base04": "#746C62",
+      "base05": "#1F1C16",
+      "base06": "#6E6459",
+      "base07": "#FEFCFA",
+      "base08": "#9E3E3E",
+      "base09": "#8F5D22",
+      "base0a": "#7D6820",
+      "base0b": "#387050",
+      "base0c": "#287070",
+      "base0d": "#3468A8",
+      "base0e": "#6438A0",
+      "base0f": "#943A68"
+    }
+  },
+  "kissa-macchiato": {
+    "name": "Kissa Macchiato",
+    "author": "rwendell (https://github.com/rwendell/kissa)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#1F1C16",
+      "base01": "#35322D",
+      "base02": "#47443F",
+      "base03": "#B8A48C",
+      "base04": "#D4C4A8",
+      "base05": "#FAF0E6",
+      "base06": "#E8D5B7",
+      "base07": "#FEF4E4",
+      "base08": "#E87777",
+      "base09": "#DA9050",
+      "base0a": "#EAC67A",
+      "base0b": "#8CB870",
+      "base0c": "#6AB8B0",
+      "base0d": "#7FA8D4",
+      "base0e": "#B094CC",
+      "base0f": "#CC88AA"
+    }
+  },
   "lime": {
     "name": "lime",
     "author": "limelier",
