@@ -1034,6 +1034,98 @@
       "base0f": "#BBD2E8"
     }
   },
+  "boo-shnickle-dark": {
+    "name": "boo-shnickle",
+    "author": "boo-shnickle (@boo_shnickle)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#191914",
+      "base01": "#3a3a2e",
+      "base02": "#5b5b49",
+      "base03": "#7c7c63",
+      "base04": "#9c9c7d",
+      "base05": "#bdbd97",
+      "base06": "#dedeb2",
+      "base07": "#ffffcc",
+      "base08": "#ffbfa5",
+      "base09": "#ffdc99",
+      "base0a": "#fff299",
+      "base0b": "#e7ff99",
+      "base0c": "#bfffc5",
+      "base0d": "#bfbfd9",
+      "base0e": "#f2bfd9",
+      "base0f": "#e5d6a6"
+    }
+  },
+  "boo-shnickle-light": {
+    "name": "boo-shnickle-light",
+    "author": "boo-shnickle (@boo_shnickle)",
+    "variant": "light",
+    "colors": {
+      "base00": "#ffffcc",
+      "base01": "#dedeb2",
+      "base02": "#bdbd97",
+      "base03": "#9c9c7d",
+      "base04": "#7c7c63",
+      "base05": "#5b5b49",
+      "base06": "#3a3a2e",
+      "base07": "#191914",
+      "base08": "#ffbfa5",
+      "base09": "#ffdc99",
+      "base0a": "#fff299",
+      "base0b": "#e7ff99",
+      "base0c": "#bfffc5",
+      "base0d": "#bfbfd9",
+      "base0e": "#f2bfd9",
+      "base0f": "#e5d6a6"
+    }
+  },
+  "bosque": {
+    "name": "Bosque",
+    "author": "Teshre",
+    "variant": "dark",
+    "colors": {
+      "base00": "#0E1410",
+      "base01": "#16211A",
+      "base02": "#1E3023",
+      "base03": "#5C6E5E",
+      "base04": "#96AA98",
+      "base05": "#CFE5D2",
+      "base06": "#DAEBDA",
+      "base07": "#E4F0E2",
+      "base08": "#E2706A",
+      "base09": "#7DC97A",
+      "base0a": "#C8B84A",
+      "base0b": "#6FC56E",
+      "base0c": "#5FD0B8",
+      "base0d": "#6DAE9E",
+      "base0e": "#B894D0",
+      "base0f": "#35503E"
+    }
+  },
+  "brasa": {
+    "name": "Brasa",
+    "author": "Teshre",
+    "variant": "dark",
+    "colors": {
+      "base00": "#1A0F0A",
+      "base01": "#2B1C14",
+      "base02": "#45261A",
+      "base03": "#7A6150",
+      "base04": "#B59D88",
+      "base05": "#F0D8C0",
+      "base06": "#F6E1CC",
+      "base07": "#FBEAD8",
+      "base08": "#F2685A",
+      "base09": "#FF7A4D",
+      "base0a": "#F0B23A",
+      "base0b": "#B8C24A",
+      "base0c": "#6BC8B8",
+      "base0d": "#9AA6E0",
+      "base0e": "#E68AA2",
+      "base0f": "#5A3A28"
+    }
+  },
   "brewer": {
     "name": "Brewer",
     "author": "Timothée Poisot (http://github.com/tpoisot)",
@@ -1147,6 +1239,29 @@
       "base0d": "#868cb3",
       "base0e": "#b386b2",
       "base0f": "#b39f9f"
+    }
+  },
+  "cacao": {
+    "name": "Cacao",
+    "author": "Teshre",
+    "variant": "dark",
+    "colors": {
+      "base00": "#160F0C",
+      "base01": "#241913",
+      "base02": "#3A281E",
+      "base03": "#766052",
+      "base04": "#AF9B8B",
+      "base05": "#E8D6C4",
+      "base06": "#EEDECD",
+      "base07": "#F4E6D6",
+      "base08": "#E0705C",
+      "base09": "#C77B4A",
+      "base0a": "#E8A84A",
+      "base0b": "#9AC97A",
+      "base0c": "#74C8B0",
+      "base0d": "#A89AD0",
+      "base0e": "#CE8AB0",
+      "base0f": "#4E382A"
     }
   },
   "caroline": {
@@ -4208,6 +4323,29 @@
       "base0f": "#a16946"
     }
   },
+  "mezcal": {
+    "name": "Mezcal",
+    "author": "Teshre",
+    "variant": "dark",
+    "colors": {
+      "base00": "#13110E",
+      "base01": "#221F14",
+      "base02": "#36301E",
+      "base03": "#6E6450",
+      "base04": "#A79E8C",
+      "base05": "#E0D8C8",
+      "base06": "#E9E1CF",
+      "base07": "#F2EAD6",
+      "base08": "#DA6E54",
+      "base09": "#D9A441",
+      "base0a": "#D9A441",
+      "base0b": "#A8B84A",
+      "base0c": "#6FC8AE",
+      "base0d": "#8AA6C0",
+      "base0e": "#C28AA8",
+      "base0f": "#4E462C"
+    }
+  },
   "mocha": {
     "name": "Mocha",
     "author": "Chris Kempson (http://chriskempson.com)",
@@ -4323,6 +4461,29 @@
       "base0f": "#8c70a7"
     }
   },
+  "noche": {
+    "name": "Noche",
+    "author": "Teshre",
+    "variant": "dark",
+    "colors": {
+      "base00": "#0C0E16",
+      "base01": "#181C2C",
+      "base02": "#232A40",
+      "base03": "#5A6178",
+      "base04": "#939BB2",
+      "base05": "#CBD4EC",
+      "base06": "#D9E0F3",
+      "base07": "#E6ECFA",
+      "base08": "#E2727E",
+      "base09": "#82A6E0",
+      "base0a": "#D8C062",
+      "base0b": "#7CC596",
+      "base0c": "#6DD8D0",
+      "base0d": "#7AA0E8",
+      "base0e": "#B79AE0",
+      "base0f": "#3A4260"
+    }
+  },
   "nord": {
     "name": "Nord",
     "author": "arcticicestudio",
@@ -4436,6 +4597,29 @@
       "base0d": "#6699CC",
       "base0e": "#C594C5",
       "base0f": "#AB7967"
+    }
+  },
+  "ocote": {
+    "name": "Ocote",
+    "author": "Teshre",
+    "variant": "dark",
+    "colors": {
+      "base00": "#14100C",
+      "base01": "#211B13",
+      "base02": "#3A2E1C",
+      "base03": "#6B6253",
+      "base04": "#A99F8D",
+      "base05": "#E7DCC6",
+      "base06": "#F1E9D9",
+      "base07": "#FAF6EC",
+      "base08": "#E8635A",
+      "base09": "#E8843A",
+      "base0a": "#E8B43A",
+      "base0b": "#7DC97A",
+      "base0c": "#6DD8C8",
+      "base0d": "#82A6E0",
+      "base0e": "#C58AE0",
+      "base0f": "#4A3E2C"
     }
   },
   "one-light": {
@@ -4597,6 +4781,29 @@
       "base0d": "#008080",
       "base0e": "#a24030",
       "base0f": "#a24030"
+    }
+  },
+  "papel": {
+    "name": "Papel",
+    "author": "Teshre",
+    "variant": "light",
+    "colors": {
+      "base00": "#F5EFE2",
+      "base01": "#8E8576",
+      "base02": "#E0D0AC",
+      "base03": "#9A8C76",
+      "base04": "#6A5D4B",
+      "base05": "#3A2E20",
+      "base06": "#958B7C",
+      "base07": "#EFE8D8",
+      "base08": "#C0392B",
+      "base09": "#C25C1F",
+      "base0a": "#A8761A",
+      "base0b": "#5E7A28",
+      "base0c": "#2A8A7A",
+      "base0d": "#2C6CA0",
+      "base0e": "#9B4D8E",
+      "base0f": "#6E6353"
     }
   },
   "papercolor-dark": {
@@ -6184,6 +6391,29 @@
       "base0d": "#b0a4c3",
       "base0e": "#d8a2b0",
       "base0f": "#f1ae97"
+    }
+  },
+  "tinta": {
+    "name": "Tinta",
+    "author": "Teshre",
+    "variant": "dark",
+    "colors": {
+      "base00": "#101012",
+      "base01": "#202023",
+      "base02": "#2C2C30",
+      "base03": "#62626A",
+      "base04": "#9D9C9D",
+      "base05": "#D8D6D0",
+      "base06": "#E3E1DB",
+      "base07": "#EEECE6",
+      "base08": "#D0726A",
+      "base09": "#E8843A",
+      "base0a": "#C8B86A",
+      "base0b": "#9AA890",
+      "base0c": "#80B8B4",
+      "base0d": "#8A9AB0",
+      "base0e": "#B0A0B8",
+      "base0f": "#4A4A50"
     }
   },
   "tokyo-city-dark": {
