@@ -91,6 +91,52 @@
       "base0f": "#BCBCBC"
     }
   },
+  "arroz-con-dulce": {
+    "name": "Arroz con Dulce",
+    "author": "Richard Martinez",
+    "variant": "light",
+    "colors": {
+      "base00": "#FFF8E7",
+      "base01": "#F7EBD3",
+      "base02": "#EAD6B8",
+      "base03": "#C8A77A",
+      "base04": "#765B45",
+      "base05": "#4A2C20",
+      "base06": "#321C14",
+      "base07": "#21110B",
+      "base08": "#A11D48",
+      "base09": "#A3470A",
+      "base0a": "#855500",
+      "base0b": "#A2380C",
+      "base0c": "#98263E",
+      "base0d": "#5940A0",
+      "base0e": "#8C1F68",
+      "base0f": "#653221"
+    }
+  },
+  "arroz-con-dulce-dark": {
+    "name": "Arroz con Dulce Dark",
+    "author": "Richard Martinez",
+    "variant": "dark",
+    "colors": {
+      "base00": "#21140F",
+      "base01": "#2C1A13",
+      "base02": "#3B241A",
+      "base03": "#A98568",
+      "base04": "#C8A77A",
+      "base05": "#F2DFC0",
+      "base06": "#F8EBD3",
+      "base07": "#FFF8E7",
+      "base08": "#E07A8A",
+      "base09": "#E68A4A",
+      "base0a": "#D9A441",
+      "base0b": "#D47A50",
+      "base0c": "#D98276",
+      "base0d": "#B99AC8",
+      "base0e": "#D58AB4",
+      "base0f": "#B97755"
+    }
+  },
   "ascendancy": {
     "name": "Ascendancy",
     "author": "EmergentMind (https://github.com/emergentmind/ascendancy-scheme)",
@@ -1377,6 +1423,52 @@
       "base0d": "#89b4fa",
       "base0e": "#cba6f7",
       "base0f": "#f2cdcd"
+    }
+  },
+  "cerulean-signal-dark": {
+    "name": "Cerulean Signal Dark",
+    "author": "Aaron Colichia (https://aaron.colichia.org/)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#101722",
+      "base01": "#131c29",
+      "base02": "#173a5a",
+      "base03": "#8fa0b5",
+      "base04": "#aab8ca",
+      "base05": "#dce6f2",
+      "base06": "#f1f6fc",
+      "base07": "#f7f9fc",
+      "base08": "#ff8a9a",
+      "base09": "#f5a35c",
+      "base0a": "#e2c85f",
+      "base0b": "#70e1b0",
+      "base0c": "#58d9df",
+      "base0d": "#7dd3ff",
+      "base0e": "#ff74d4",
+      "base0f": "#d59b7d"
+    }
+  },
+  "cerulean-signal-light": {
+    "name": "Cerulean Signal Light",
+    "author": "Aaron Colichia (https://aaron.colichia.org/)",
+    "variant": "light",
+    "colors": {
+      "base00": "#f7f9fc",
+      "base01": "#eef4fb",
+      "base02": "#dde7f1",
+      "base03": "#637287",
+      "base04": "#566579",
+      "base05": "#232b38",
+      "base06": "#202b3a",
+      "base07": "#141d2a",
+      "base08": "#b4233d",
+      "base09": "#9a4f00",
+      "base0a": "#6f6300",
+      "base0b": "#17795e",
+      "base0c": "#00727e",
+      "base0d": "#006fa8",
+      "base0e": "#a0007d",
+      "base0f": "#7a4e3c"
     }
   },
   "chalk": {
@@ -3242,6 +3334,29 @@
       "base0f": "#d65d0e"
     }
   },
+  "gruvbox-dark-medium-forest": {
+    "name": "Gruvbox Dark Medium (Forest)",
+    "author": "Muhammad Talha (muhammadtalha.quant@gmail.com), morhetz (https://github.com/morhetz/gruvbox)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#282828",
+      "base01": "#3c3836",
+      "base02": "#504945",
+      "base03": "#665c50",
+      "base04": "#bdae93",
+      "base05": "#d5c4a1",
+      "base06": "#ebdbb2",
+      "base07": "#fbf1c7",
+      "base08": "#fb4934",
+      "base09": "#fe8019",
+      "base0a": "#fabd2f",
+      "base0b": "#b8bb26",
+      "base0c": "#5f6c1f",
+      "base0d": "#b8bb26",
+      "base0e": "#96bda2",
+      "base0f": "#d65d0e"
+    }
+  },
   "gruvbox-dark-pale": {
     "name": "Gruvbox dark, pale",
     "author": "Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)",
@@ -4139,6 +4254,52 @@
       "base0f": "#CC88AA"
     }
   },
+  "lichen-chartreuse-dark": {
+    "name": "Lichen Chartreuse Dark",
+    "author": "Aaron Colichia (https://aaron.colichia.org/)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#151613",
+      "base01": "#1c1e1a",
+      "base02": "#3e5123",
+      "base03": "#899282",
+      "base04": "#a0a598",
+      "base05": "#e0e5da",
+      "base06": "#ecefe7",
+      "base07": "#fcfcfa",
+      "base08": "#e28b82",
+      "base09": "#d5ad73",
+      "base0a": "#b2d084",
+      "base0b": "#83bda5",
+      "base0c": "#9cc6c9",
+      "base0d": "#78adc4",
+      "base0e": "#bfa6d4",
+      "base0f": "#d2a0b2"
+    }
+  },
+  "lichen-chartreuse-light": {
+    "name": "Lichen Chartreuse Light",
+    "author": "Aaron Colichia (https://aaron.colichia.org/)",
+    "variant": "light",
+    "colors": {
+      "base00": "#f5f7f2",
+      "base01": "#ecefe7",
+      "base02": "#cfe4ae",
+      "base03": "#687161",
+      "base04": "#4e5149",
+      "base05": "#2d302b",
+      "base06": "#232420",
+      "base07": "#151613",
+      "base08": "#a34740",
+      "base09": "#8b5d27",
+      "base0a": "#506b29",
+      "base0b": "#2f7462",
+      "base0c": "#356569",
+      "base0d": "#356e8a",
+      "base0e": "#6e5689",
+      "base0f": "#8a4f67"
+    }
+  },
   "lime": {
     "name": "lime",
     "author": "limelier",
@@ -4597,6 +4758,52 @@
       "base0d": "#4d6bb6",
       "base0e": "#716cae",
       "base0f": "#8c70a7"
+    }
+  },
+  "neovim-dark": {
+    "name": "Neovim Dark",
+    "author": "https://github.com/neovim/neovim/blob/master/src/nvim/highlight_group.c",
+    "variant": "dark",
+    "colors": {
+      "base00": "#14161b",
+      "base01": "#07080d",
+      "base02": "#4f5258",
+      "base03": "#9b9ea4",
+      "base04": "#c4c6cd",
+      "base05": "#e0e2ea",
+      "base06": "#eef1f8",
+      "base07": "#eef1f8",
+      "base08": "#ffc0b9",
+      "base09": "#ffa500",
+      "base0a": "#fce094",
+      "base0b": "#b3f6c0",
+      "base0c": "#8cf8f7",
+      "base0d": "#a6dbff",
+      "base0e": "#ffcaff",
+      "base0f": "#cd853f"
+    }
+  },
+  "neovim-light": {
+    "name": "Neovim Light",
+    "author": "https://github.com/neovim/neovim/blob/master/src/nvim/highlight_group.c",
+    "variant": "light",
+    "colors": {
+      "base00": "#e0e2ea",
+      "base01": "#eef1f8",
+      "base02": "#9b9ea4",
+      "base03": "#4f5258",
+      "base04": "#2c2e33",
+      "base05": "#14161b",
+      "base06": "#07080d",
+      "base07": "#07080d",
+      "base08": "#590008",
+      "base09": "#8b4513",
+      "base0a": "#6b5300",
+      "base0b": "#005523",
+      "base0c": "#007373",
+      "base0d": "#004c73",
+      "base0e": "#470045",
+      "base0f": "#a52a2a"
     }
   },
   "noche": {
