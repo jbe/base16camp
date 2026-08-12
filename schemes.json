@@ -5243,6 +5243,52 @@
       "base0f": "#59325C"
     }
   },
+  "pastelon-de-amarillos": {
+    "name": "Pastelón de Amarillos",
+    "author": "Richard Martinez (https://sonofmartinus.com)",
+    "variant": "light",
+    "colors": {
+      "base00": "#fff4d6",
+      "base01": "#f2d083",
+      "base02": "#d69b45",
+      "base03": "#80616b",
+      "base04": "#684653",
+      "base05": "#432c3b",
+      "base06": "#2f1c2e",
+      "base07": "#1c0f20",
+      "base08": "#bd3548",
+      "base09": "#ad570f",
+      "base0a": "#946400",
+      "base0b": "#167451",
+      "base0c": "#007270",
+      "base0d": "#1e5da8",
+      "base0e": "#8d3f89",
+      "base0f": "#7c3528"
+    }
+  },
+  "pastelon-de-amarillos-dark": {
+    "name": "Pastelón de Amarillos Dark",
+    "author": "Richard Martinez (https://sonofmartinus.com)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#180d18",
+      "base01": "#2a1424",
+      "base02": "#432031",
+      "base03": "#a0747c",
+      "base04": "#c39a89",
+      "base05": "#ffe0a3",
+      "base06": "#ffebc5",
+      "base07": "#fff7e6",
+      "base08": "#ff646a",
+      "base09": "#f99a32",
+      "base0a": "#ffc84a",
+      "base0b": "#3ccb83",
+      "base0c": "#35c4b6",
+      "base0d": "#5a9fe6",
+      "base0e": "#d978cf",
+      "base0f": "#e2764a"
+    }
+  },
   "penumbra-dark": {
     "name": "Penumbra Dark",
     "author": "Zachary Weiss (https://github.com/zacharyweiss)",
