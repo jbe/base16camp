@@ -1,18 +1,25 @@
 #!/usr/bin/env bun
 /**
- * Sync base16 schemes from tinted-theming/schemes repo
+ * Sync base16 schemes from tinted-theming/schemes repo, merged with the
+ * local schemes in extra-schemes/ (same YAML format, for schemes that are
+ * not in the upstream repo).
  * Run with: bun sync-schemes.ts
  */
 
+import { readdir } from "node:fs/promises";
+import { join } from "node:path";
 import { parse as parseYaml } from "yaml";
 
 const SCHEMES_REPO = "https://api.github.com/repos/tinted-theming/schemes/contents/base16";
+const EXTRA_SCHEMES_DIR = "extra-schemes";
 const OUTPUT_FILE = "schemes.json";
 
 interface Scheme {
   name: string;
   author: string;
   variant: "light" | "dark";
+  /** Source page for the scheme. Defaults to the tinted-theming YAML in the UI. */
+  url?: string;
   colors: Record<string, string>;
 }
 
@@ -56,8 +63,21 @@ function parseScheme(yaml: string, filename: string): Scheme {
     name: data.name || filename,
     author: data.author || "Unknown",
     variant: data.variant || "dark",
+    ...(data.url ? { url: data.url } : {}),
     colors,
   };
+}
+
+async function loadExtraSchemes(): Promise<Record<string, Scheme>> {
+  const schemes: Record<string, Scheme> = {};
+  const files = (await readdir(EXTRA_SCHEMES_DIR)).filter(f => f.endsWith(".yaml")).sort();
+  for (const file of files) {
+    const slug = file.replace(".yaml", "");
+    const yaml = await Bun.file(join(EXTRA_SCHEMES_DIR, file)).text();
+    schemes[slug] = parseScheme(yaml, slug);
+  }
+  console.log(`Loaded ${files.length} extra schemes from ${EXTRA_SCHEMES_DIR}/`);
+  return schemes;
 }
 
 async function main() {
@@ -66,7 +86,7 @@ async function main() {
   
   console.log(`Found ${yamlFiles.length} scheme files`);
   
-  const schemes: Record<string, Scheme> = {};
+  const schemes: Record<string, Scheme> = await loadExtraSchemes();
   const errors: { file: string; error: string }[] = [];
   let processed = 0;
   
@@ -78,6 +98,7 @@ async function main() {
     await Promise.all(batch.map(async (file) => {
       const slug = file.name.replace(".yaml", "");
       try {
+        if (slug in schemes) throw new Error(`conflicts with ${EXTRA_SCHEMES_DIR}/${slug}.yaml`);
         const yaml = await fetchScheme(file.download_url);
         schemes[slug] = parseScheme(yaml, slug);
       } catch (e) {

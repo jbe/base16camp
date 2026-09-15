@@ -70,25 +70,25 @@
   },
   "apprentice": {
     "name": "Apprentice",
-    "author": "romainl",
+    "author": "Romain Lafourcade (https://github.com/romainl)",
     "variant": "dark",
     "colors": {
       "base00": "#262626",
-      "base01": "#AF5F5F",
-      "base02": "#5F875F",
-      "base03": "#87875F",
-      "base04": "#5F87AF",
-      "base05": "#5F5F87",
-      "base06": "#5F8787",
-      "base07": "#6C6C6C",
-      "base08": "#444444",
+      "base01": "#303030",
+      "base02": "#3A3A3A",
+      "base03": "#444444",
+      "base04": "#6C6C6C",
+      "base05": "#BCBCBC",
+      "base06": "#DFDFDF",
+      "base07": "#FFFFFF",
+      "base08": "#AF5F5F",
       "base09": "#FF8700",
-      "base0a": "#87AF87",
-      "base0b": "#FFFFAF",
-      "base0c": "#87AFD7",
-      "base0d": "#8787AF",
-      "base0e": "#5FAFAF",
-      "base0f": "#BCBCBC"
+      "base0a": "#87875F",
+      "base0b": "#5F875F",
+      "base0c": "#5F8787",
+      "base0d": "#5F87AF",
+      "base0e": "#5F5F87",
+      "base0f": "#AF5F5F"
     }
   },
   "arroz-con-dulce": {
@@ -1793,6 +1793,52 @@
       "base0f": "#85144b"
     }
   },
+  "corduroy": {
+    "name": "Corduroy",
+    "author": "taysatte (https://github.com/taysatte)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#1d1920",
+      "base01": "#261e2a",
+      "base02": "#2e2533",
+      "base03": "#6f6373",
+      "base04": "#887b8c",
+      "base05": "#cdc8d0",
+      "base06": "#cdc8d0",
+      "base07": "#504757",
+      "base08": "#e06278",
+      "base09": "#e99d90",
+      "base0a": "#edb392",
+      "base0b": "#4b8686",
+      "base0c": "#e99d90",
+      "base0d": "#d27f91",
+      "base0e": "#c285b2",
+      "base0f": "#887b8c"
+    }
+  },
+  "corduroy-dark": {
+    "name": "Corduroy Dark",
+    "author": "taysatte (https://github.com/taysatte)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#141016",
+      "base01": "#1b151e",
+      "base02": "#221a26",
+      "base03": "#7d7082",
+      "base04": "#9a8d9e",
+      "base05": "#ddd8df",
+      "base06": "#ddd8df",
+      "base07": "#5a5160",
+      "base08": "#e8758a",
+      "base09": "#f0a89b",
+      "base0a": "#f0bd9c",
+      "base0b": "#55a0a0",
+      "base0c": "#f0a89b",
+      "base0d": "#dc92a3",
+      "base0e": "#cf98c4",
+      "base0f": "#9a8d9e"
+    }
+  },
   "cupcake": {
     "name": "Cupcake",
     "author": "Chris Kempson (http://chriskempson.com)",
@@ -2803,6 +2849,102 @@
       "base0d": "#3a94c5",
       "base0e": "#df69ba",
       "base0f": "#829181"
+    }
+  },
+  "evergarden-fall": {
+    "name": "Evergarden Fall",
+    "author": "comfysage (https://evergarden.moe)",
+    "variant": "dark",
+    "url": "https://evergarden.moe",
+    "colors": {
+      "base00": "#232a2e",
+      "base01": "#2b3337",
+      "base02": "#374145",
+      "base03": "#839e9a",
+      "base04": "#96b4aa",
+      "base05": "#f8f9e8",
+      "base06": "#adc9bc",
+      "base07": "#fae6ef",
+      "base08": "#f57f82",
+      "base09": "#f7a182",
+      "base0a": "#f5d098",
+      "base0b": "#cbe3b3",
+      "base0c": "#b3e3ca",
+      "base0d": "#b2caed",
+      "base0e": "#f3c0e5",
+      "base0f": "#d2bdf3"
+    }
+  },
+  "evergarden-spring": {
+    "name": "Evergarden Spring",
+    "author": "comfysage (https://evergarden.moe)",
+    "variant": "dark",
+    "url": "https://evergarden.moe",
+    "colors": {
+      "base00": "#2b3438",
+      "base01": "#343e43",
+      "base02": "#3e4a4f",
+      "base03": "#839e9a",
+      "base04": "#96b4aa",
+      "base05": "#f8f9e8",
+      "base06": "#adc9bc",
+      "base07": "#fae6ef",
+      "base08": "#f57f82",
+      "base09": "#f7a182",
+      "base0a": "#f5d098",
+      "base0b": "#cbe3b3",
+      "base0c": "#b3e3ca",
+      "base0d": "#b2caed",
+      "base0e": "#f3c0e5",
+      "base0f": "#d2bdf3"
+    }
+  },
+  "evergarden-summer": {
+    "name": "Evergarden Summer",
+    "author": "comfysage (https://evergarden.moe)",
+    "variant": "light",
+    "url": "https://evergarden.moe",
+    "colors": {
+      "base00": "#f5efe6",
+      "base01": "#ede8dd",
+      "base02": "#e6e1d3",
+      "base03": "#707d76",
+      "base04": "#576869",
+      "base05": "#2b3034",
+      "base06": "#455355",
+      "base07": "#e8ded5",
+      "base08": "#c58687",
+      "base09": "#c69883",
+      "base0a": "#c4aa80",
+      "base0b": "#91a77a",
+      "base0c": "#74a48b",
+      "base0d": "#8294ad",
+      "base0e": "#c499b8",
+      "base0f": "#a897b8"
+    }
+  },
+  "evergarden-winter": {
+    "name": "Evergarden Winter",
+    "author": "comfysage (https://evergarden.moe)",
+    "variant": "dark",
+    "url": "https://evergarden.moe",
+    "colors": {
+      "base00": "#1e2528",
+      "base01": "#262f33",
+      "base02": "#374145",
+      "base03": "#839e9a",
+      "base04": "#96b4aa",
+      "base05": "#f8f9e8",
+      "base06": "#adc9bc",
+      "base07": "#fae6ef",
+      "base08": "#f57f82",
+      "base09": "#f7a182",
+      "base0a": "#f5d098",
+      "base0b": "#cbe3b3",
+      "base0c": "#b3e3ca",
+      "base0d": "#b2caed",
+      "base0e": "#f3c0e5",
+      "base0f": "#d2bdf3"
     }
   },
   "flat": {

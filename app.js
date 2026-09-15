@@ -16,6 +16,10 @@ const curatedThemes = [
   'ayu-mirage',
   'dracula',
   'equilibrium-gray-light',
+  'evergarden-fall',
+  'evergarden-spring',
+  'evergarden-summer',
+  'evergarden-winter',
   'everforest',
   'everforest-dark-hard',
   'gruvbox-dark-hard',
@@ -140,7 +144,8 @@ function applyTheme(schemeKey) {
   // Update art overlay
   document.getElementById('art-title').textContent = scheme.name;
   document.getElementById('art-author').textContent = scheme.author || 'Unknown';
-  document.getElementById('art-link').href = `https://github.com/tinted-theming/schemes/blob/spec-0.11/base16/${schemeKey}.yaml`;
+  document.getElementById('art-link').href = scheme.url
+    || `https://github.com/tinted-theming/schemes/blob/spec-0.11/base16/${schemeKey}.yaml`;
   
   // Regenerate art for day/night based on variant
   populateArt();
