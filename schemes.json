@@ -758,6 +758,29 @@
       "base0f": "#A928B9"
     }
   },
+  "berlin": {
+    "name": "Berlin",
+    "author": "xscriptor (https://github.com/xscriptor)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#000000",
+      "base01": "#0e0e0e",
+      "base02": "#181818",
+      "base03": "#333333",
+      "base04": "#707070",
+      "base05": "#cccccc",
+      "base06": "#d6d6d6",
+      "base07": "#ffffff",
+      "base08": "#999999",
+      "base09": "#bbbbbb",
+      "base0a": "#dddddd",
+      "base0b": "#bbbbbb",
+      "base0c": "#cccccc",
+      "base0d": "#888888",
+      "base0e": "#aaaaaa",
+      "base0f": "#7a7a7a"
+    }
+  },
   "bespin": {
     "name": "Bespin",
     "author": "Jan T. Sott",
@@ -1078,6 +1101,29 @@
       "base0d": "#82AAFF",
       "base0e": "#FF84DD",
       "base0f": "#BBD2E8"
+    }
+  },
+  "bogota": {
+    "name": "Bogota",
+    "author": "xscriptor (https://github.com/xscriptor)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#200b0a",
+      "base01": "#2f1b1b",
+      "base02": "#3a2727",
+      "base03": "#525053",
+      "base04": "#968a91",
+      "base05": "#f7f1ff",
+      "base06": "#f9f4ff",
+      "base07": "#f7f1ff",
+      "base08": "#fc618d",
+      "base09": "#fea78b",
+      "base0a": "#ffed89",
+      "base0b": "#7bd88f",
+      "base0c": "#47e6ff",
+      "base0d": "#47e6ff",
+      "base0e": "#ff9999",
+      "base0f": "#b0705e"
     }
   },
   "boo-shnickle-dark": {
@@ -3936,6 +3982,29 @@
       "base0f": "#c85e0d"
     }
   },
+  "helsinki": {
+    "name": "Helsinki",
+    "author": "xscriptor (https://github.com/xscriptor)",
+    "variant": "light",
+    "colors": {
+      "base00": "#f8fafe",
+      "base01": "#edeef1",
+      "base02": "#e4e5e7",
+      "base03": "#b0a999",
+      "base04": "#8d8a82",
+      "base05": "#544d40",
+      "base06": "#3b362d",
+      "base07": "#000000",
+      "base08": "#1faa9e",
+      "base09": "#268da6",
+      "base0a": "#2e70ad",
+      "base0b": "#733d9a",
+      "base0c": "#bd4c3d",
+      "base0d": "#b55a0f",
+      "base0e": "#3e9d21",
+      "base0f": "#1b6374"
+    }
+  },
   "hopscotch": {
     "name": "Hopscotch",
     "author": "Jan T. Sott",
@@ -4396,6 +4465,29 @@
       "base0f": "#CC88AA"
     }
   },
+  "lahabana": {
+    "name": "Lahabana",
+    "author": "xscriptor (https://github.com/xscriptor)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#19191a",
+      "base01": "#29282a",
+      "base02": "#343335",
+      "base03": "#76747a",
+      "base04": "#939098",
+      "base05": "#f7f1ff",
+      "base06": "#f9f4ff",
+      "base07": "#f7f1ff",
+      "base08": "#fc618d",
+      "base09": "#f0b095",
+      "base0a": "#e5ff9d",
+      "base0b": "#7bd88f",
+      "base0c": "#5ad4e6",
+      "base0d": "#fd9353",
+      "base0e": "#948ae3",
+      "base0f": "#a57b6a"
+    }
+  },
   "lichen-chartreuse-dark": {
     "name": "Lichen Chartreuse Dark",
     "author": "Aaron Colichia (https://aaron.colichia.org/)",
@@ -4488,6 +4580,29 @@
       "base0f": "#AA5500"
     }
   },
+  "london": {
+    "name": "London",
+    "author": "xscriptor (https://github.com/xscriptor)",
+    "variant": "light",
+    "colors": {
+      "base00": "#ffffff",
+      "base01": "#f1f1f1",
+      "base02": "#e7e7e7",
+      "base03": "#333333",
+      "base04": "#7a7a7a",
+      "base05": "#333333",
+      "base06": "#242424",
+      "base07": "#aaaaaa",
+      "base08": "#333333",
+      "base09": "#444444",
+      "base0a": "#555555",
+      "base0b": "#444444",
+      "base0c": "#888888",
+      "base0d": "#666666",
+      "base0e": "#777777",
+      "base0f": "#303030"
+    }
+  },
   "macintosh": {
     "name": "Macintosh",
     "author": "Rebecca Bettencourt (http://www.kreativekorp.com)",
@@ -4509,6 +4624,29 @@
       "base0d": "#0000d3",
       "base0e": "#4700a5",
       "base0f": "#90713a"
+    }
+  },
+  "madrid": {
+    "name": "Madrid",
+    "author": "xscriptor (https://github.com/xscriptor)",
+    "variant": "light",
+    "colors": {
+      "base00": "#fafafa",
+      "base01": "#eaeaea",
+      "base02": "#dfdfdf",
+      "base03": "#4d4d4d",
+      "base04": "#686868",
+      "base05": "#1a1a1a",
+      "base06": "#121212",
+      "base07": "#1a1a1a",
+      "base08": "#990026",
+      "base09": "#923217",
+      "base0a": "#8a6408",
+      "base0b": "#007a28",
+      "base0c": "#007a9e",
+      "base0d": "#007a9e",
+      "base0e": "#4d2699",
+      "base0f": "#662310"
     }
   },
   "marrakesh": {
@@ -4785,6 +4923,29 @@
       "base0d": "#8AA6C0",
       "base0e": "#C28AA8",
       "base0f": "#4E462C"
+    }
+  },
+  "miami": {
+    "name": "Miami",
+    "author": "xscriptor (https://github.com/xscriptor)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#000000",
+      "base01": "#111112",
+      "base02": "#1e1d1f",
+      "base03": "#69676c",
+      "base04": "#88858c",
+      "base05": "#f7f1ff",
+      "base06": "#f9f4ff",
+      "base07": "#f7f1ff",
+      "base08": "#ff4c8b",
+      "base09": "#ff926c",
+      "base0a": "#ffd84c",
+      "base0b": "#7fffd4",
+      "base0c": "#47cfff",
+      "base0d": "#00ffa8",
+      "base0e": "#d36cff",
+      "base0f": "#a65f46"
     }
   },
   "mocha": {
@@ -5178,6 +5339,29 @@
       "base0f": "#be5046"
     }
   },
+  "oslo": {
+    "name": "Oslo",
+    "author": "xscriptor (https://github.com/xscriptor)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#3f4451",
+      "base01": "#474c59",
+      "base02": "#4c515e",
+      "base03": "#6c727f",
+      "base04": "#7a808e",
+      "base05": "#abb2bf",
+      "base06": "#bcc1cc",
+      "base07": "#ffffff",
+      "base08": "#e05561",
+      "base09": "#d8725a",
+      "base0a": "#d18f52",
+      "base0b": "#8cc265",
+      "base0c": "#42b3c2",
+      "base0d": "#4aa5f0",
+      "base0e": "#c162de",
+      "base0f": "#a26257"
+    }
+  },
   "outrun-dark": {
     "name": "Outrun Dark",
     "author": "Hugo Delahousse (http://github.com/hugodelahousse/)",
@@ -5360,6 +5544,29 @@
       "base0d": "#06b6ef",
       "base0e": "#815ba4",
       "base0f": "#e96ba8"
+    }
+  },
+  "paris": {
+    "name": "Paris",
+    "author": "xscriptor (https://github.com/xscriptor)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#1a0a30",
+      "base01": "#291a3e",
+      "base02": "#352649",
+      "base03": "#c4bdff",
+      "base04": "#9489a2",
+      "base05": "#f7f1ff",
+      "base06": "#f9f4ff",
+      "base07": "#f7f1ff",
+      "base08": "#fc618d",
+      "base09": "#fca37a",
+      "base0a": "#fce566",
+      "base0b": "#7bd88f",
+      "base0c": "#a3f3ff",
+      "base0d": "#a3f3ff",
+      "base0e": "#c4bdff",
+      "base0f": "#ad6d60"
     }
   },
   "pasque": {
@@ -5682,6 +5889,29 @@
       "base0d": "#8485ce",
       "base0e": "#b74989",
       "base0f": "#986841"
+    }
+  },
+  "praha": {
+    "name": "Praha",
+    "author": "xscriptor (https://github.com/xscriptor)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#1a1a1a",
+      "base01": "#2a2a2a",
+      "base02": "#353535",
+      "base03": "#6272a4",
+      "base04": "#989898",
+      "base05": "#ffffff",
+      "base06": "#ffffff",
+      "base07": "#ffffff",
+      "base08": "#ff5555",
+      "base09": "#ff9c7c",
+      "base0a": "#ffe4a3",
+      "base0b": "#b8e6a0",
+      "base0c": "#8be9fd",
+      "base0d": "#bd93f9",
+      "base0e": "#ff9aa2",
+      "base0f": "#af6e5a"
     }
   },
   "precious-dark-eleven": {
@@ -6949,6 +7179,29 @@
       "base0f": "#4A4A50"
     }
   },
+  "tokio": {
+    "name": "Tokio",
+    "author": "xscriptor (https://github.com/xscriptor)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#1c1c1d",
+      "base01": "#2b2b2d",
+      "base02": "#363638",
+      "base03": "#78757c",
+      "base04": "#949199",
+      "base05": "#f7f1ff",
+      "base06": "#f9f4ff",
+      "base07": "#f7f1ff",
+      "base08": "#fc618d",
+      "base09": "#fca37a",
+      "base0a": "#fce566",
+      "base0b": "#7bd88f",
+      "base0c": "#5ad4e6",
+      "base0d": "#fd9353",
+      "base0e": "#948ae3",
+      "base0f": "#ae7459"
+    }
+  },
   "tokyo-city-dark": {
     "name": "Tokyo City Dark",
     "author": "Michaël Ball",
@@ -7752,6 +8005,29 @@
       "base0d": "#88a4d3",
       "base0e": "#bb90e2",
       "base0f": "#b49368"
+    }
+  },
+  "x": {
+    "name": "X",
+    "author": "xscriptor (https://github.com/xscriptor)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#050505",
+      "base01": "#161616",
+      "base02": "#222123",
+      "base03": "#6b686e",
+      "base04": "#8a878e",
+      "base05": "#f7f1ff",
+      "base06": "#f9f4ff",
+      "base07": "#f7f1ff",
+      "base08": "#fc618d",
+      "base09": "#fca37a",
+      "base0a": "#fce566",
+      "base0b": "#7bd88f",
+      "base0c": "#5ad4e6",
+      "base0d": "#fd9353",
+      "base0e": "#948ae3",
+      "base0f": "#a66c51"
     }
   },
   "xcode-dusk": {
