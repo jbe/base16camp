@@ -183,6 +183,29 @@
       "base0f": "#C79595"
     }
   },
+  "ataerm": {
+    "name": "Aftertaerm",
+    "author": "Radek Polasek (https://github.com/radekp31), based on Taerminal by cozywigwam",
+    "variant": "dark",
+    "colors": {
+      "base00": "#26282a",
+      "base01": "#303234",
+      "base02": "#3c3e41",
+      "base03": "#6f6f6f",
+      "base04": "#a8a8a8",
+      "base05": "#f0f0f0",
+      "base06": "#f1f1f1",
+      "base07": "#ffffff",
+      "base08": "#ff8878",
+      "base09": "#ffb88a",
+      "base0a": "#fffcb7",
+      "base0b": "#b4fb73",
+      "base0c": "#a2e1f8",
+      "base0d": "#8bbce5",
+      "base0e": "#ffb2fe",
+      "base0f": "#d69a8a"
+    }
+  },
   "atelier-cave": {
     "name": "Atelier Cave",
     "author": "Bram de Haan (http://atelierbramdehaan.nl)",
