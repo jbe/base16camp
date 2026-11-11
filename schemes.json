@@ -1379,6 +1379,29 @@
       "base0f": "#4E382A"
     }
   },
+  "carbonfox": {
+    "name": "carbonfox",
+    "author": "EdenEast (https://github.com/EdenEast)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#161616",
+      "base01": "#252525",
+      "base02": "#353535",
+      "base03": "#484848",
+      "base04": "#7b7c7e",
+      "base05": "#f2f4f8",
+      "base06": "#b6b8bb",
+      "base07": "#e4e4e5",
+      "base08": "#ee5396",
+      "base09": "#3ddbd9",
+      "base0a": "#08bdba",
+      "base0b": "#25be6a",
+      "base0c": "#33b1ff",
+      "base0d": "#78a9ff",
+      "base0e": "#be95ff",
+      "base0f": "#ff7eb6"
+    }
+  },
   "caroline": {
     "name": "caroline",
     "author": "ed (https://codeberg.org/ed)",
@@ -2230,6 +2253,52 @@
       "base0f": "#a886bf"
     }
   },
+  "dawnfox": {
+    "name": "dawnfox",
+    "author": "EdenEast (https://github.com/EdenEast)",
+    "variant": "light",
+    "colors": {
+      "base00": "#faf4ed",
+      "base01": "#ebe0df",
+      "base02": "#ebdfe4",
+      "base03": "#5f5695",
+      "base04": "#a8a3b3",
+      "base05": "#575279",
+      "base06": "#625c87",
+      "base07": "#e6ebf3",
+      "base08": "#b4637a",
+      "base09": "#d7827e",
+      "base0a": "#ea9d34",
+      "base0b": "#618774",
+      "base0c": "#56949f",
+      "base0d": "#286983",
+      "base0e": "#907aa9",
+      "base0f": "#d685af"
+    }
+  },
+  "dayfox": {
+    "name": "dayfox",
+    "author": "EdenEast (https://github.com/EdenEast)",
+    "variant": "light",
+    "colors": {
+      "base00": "#f6f2ee",
+      "base01": "#dbd1dd",
+      "base02": "#d3c7bb",
+      "base03": "#534c45",
+      "base04": "#824d5b",
+      "base05": "#3d2b5a",
+      "base06": "#643f61",
+      "base07": "#f4ece6",
+      "base08": "#a5222f",
+      "base09": "#955f61",
+      "base0a": "#ac5402",
+      "base0b": "#396847",
+      "base0c": "#287980",
+      "base0d": "#2848a9",
+      "base0e": "#6e33ce",
+      "base0f": "#a440b5"
+    }
+  },
   "decaf": {
     "name": "Decaf",
     "author": "Alex Mirrington (https://github.com/alexmirrington)",
@@ -2389,6 +2458,29 @@
       "base0d": "#bd93f9",
       "base0e": "#ff79c6",
       "base0f": "#993333"
+    }
+  },
+  "duskfox": {
+    "name": "duskfox",
+    "author": "EdenEast (https://github.com/EdenEast)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#232136",
+      "base01": "#2d2a45",
+      "base02": "#373354",
+      "base03": "#47407d",
+      "base04": "#6e6a86",
+      "base05": "#e0def4",
+      "base06": "#cdcbe0",
+      "base07": "#e2e0f7",
+      "base08": "#eb6f92",
+      "base09": "#ea9a97",
+      "base0a": "#f6c177",
+      "base0b": "#a3be8c",
+      "base0c": "#9ccfd8",
+      "base0d": "#569fba",
+      "base0e": "#c4a7e7",
+      "base0f": "#eb98c3"
     }
   },
   "edge-dark": {
@@ -5132,6 +5224,29 @@
       "base0f": "#a52a2a"
     }
   },
+  "nightfox": {
+    "name": "nightfox",
+    "author": "EdenEast (https://github.com/EdenEast)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#192330",
+      "base01": "#212e3f",
+      "base02": "#29394f",
+      "base03": "#575860",
+      "base04": "#71839b",
+      "base05": "#cdcecf",
+      "base06": "#aeafb0",
+      "base07": "#e4e4e5",
+      "base08": "#c94f6d",
+      "base09": "#f4a261",
+      "base0a": "#dbc074",
+      "base0b": "#81b29a",
+      "base0c": "#63cdcf",
+      "base0d": "#719cd6",
+      "base0e": "#9d79d6",
+      "base0f": "#d67ad2"
+    }
+  },
   "noche": {
     "name": "Noche",
     "author": "Teshre",
@@ -5199,6 +5314,29 @@
       "base0d": "#3b6ea8",
       "base0e": "#97365b",
       "base0f": "#5272af"
+    }
+  },
+  "nordfox": {
+    "name": "nordfox",
+    "author": "EdenEast (https://github.com/EdenEast)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#2e3440",
+      "base01": "#39404f",
+      "base02": "#444c5e",
+      "base03": "#465780",
+      "base04": "#7e8188",
+      "base05": "#cdcecf",
+      "base06": "#abb1bb",
+      "base07": "#e7ecf4",
+      "base08": "#bf616a",
+      "base09": "#c9826b",
+      "base0a": "#ebcb8b",
+      "base0b": "#a3be8c",
+      "base0c": "#88c0d0",
+      "base0d": "#81a1c1",
+      "base0e": "#b48ead",
+      "base0f": "#bf88bc"
     }
   },
   "nova": {
@@ -7110,6 +7248,144 @@
       "base0f": "#140c0d"
     }
   },
+  "stranger-theme-dimension-x": {
+    "name": "Stranger Theme Dimension X",
+    "author": "Stranger Theme (https://github.com/stranger-theme/stranger-theme)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#1e1a1a",
+      "base01": "#322e2e",
+      "base02": "#523535",
+      "base03": "#9a7c7c",
+      "base04": "#b8a5a5",
+      "base05": "#e8d5d5",
+      "base06": "#f4e1e1",
+      "base07": "#ffffff",
+      "base08": "#ff55aa",
+      "base09": "#ff6b6b",
+      "base0a": "#bca89f",
+      "base0b": "#8b7355",
+      "base0c": "#d19a66",
+      "base0d": "#c678dd",
+      "base0e": "#e06c75",
+      "base0f": "#d74343"
+    }
+  },
+  "stranger-theme-hawkins": {
+    "name": "Stranger Theme Hawkins",
+    "author": "Stranger Theme (https://github.com/stranger-theme/stranger-theme)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#2c2218",
+      "base01": "#40362c",
+      "base02": "#4d4339",
+      "base03": "#9e8766",
+      "base04": "#b8ac98",
+      "base05": "#e8dcc8",
+      "base06": "#f4e8d4",
+      "base07": "#ffffff",
+      "base08": "#bf616a",
+      "base09": "#d08770",
+      "base0a": "#ebcb8b",
+      "base0b": "#a3be8c",
+      "base0c": "#88c0d0",
+      "base0d": "#b48ead",
+      "base0e": "#d4a574",
+      "base0f": "#a85f48"
+    }
+  },
+  "stranger-theme-starcourt": {
+    "name": "Stranger Theme Starcourt",
+    "author": "Stranger Theme (https://github.com/stranger-theme/stranger-theme)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#1a1a2e",
+      "base01": "#2e2e42",
+      "base02": "#3d3d66",
+      "base03": "#8c77c3",
+      "base04": "#bababa",
+      "base05": "#eaeaea",
+      "base06": "#f6f6f6",
+      "base07": "#ffffff",
+      "base08": "#ff6b6b",
+      "base09": "#ffb347",
+      "base0a": "#ffd700",
+      "base0b": "#00fa9a",
+      "base0c": "#00ced1",
+      "base0d": "#ba55d3",
+      "base0e": "#ff1493",
+      "base0f": "#d78b1f"
+    }
+  },
+  "stranger-theme-the-lab": {
+    "name": "Stranger Theme The Lab",
+    "author": "Stranger Theme (https://github.com/stranger-theme/stranger-theme)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#1a1d26",
+      "base01": "#2e313a",
+      "base02": "#3c3f48",
+      "base03": "#73879c",
+      "base04": "#b0b5bc",
+      "base05": "#e0e5ec",
+      "base06": "#ecf1f8",
+      "base07": "#ffffff",
+      "base08": "#ff4136",
+      "base09": "#ff851b",
+      "base0a": "#ffdc00",
+      "base0b": "#2ecc40",
+      "base0c": "#39cccc",
+      "base0d": "#b10dc9",
+      "base0e": "#7fdbff",
+      "base0f": "#d75d00"
+    }
+  },
+  "stranger-theme-tigers": {
+    "name": "Stranger Theme Tigers",
+    "author": "Stranger Theme (https://github.com/stranger-theme/stranger-theme)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#181e18",
+      "base01": "#2c322c",
+      "base02": "#38463a",
+      "base03": "#758975",
+      "base04": "#c5c5c5",
+      "base05": "#f5f5f5",
+      "base06": "#ffffff",
+      "base07": "#ffffff",
+      "base08": "#cc6666",
+      "base09": "#de935f",
+      "base0a": "#f0c674",
+      "base0b": "#b5bd68",
+      "base0c": "#81a2be",
+      "base0d": "#b294bb",
+      "base0e": "#ff7f2a",
+      "base0f": "#b66b37"
+    }
+  },
+  "stranger-theme-upside-down": {
+    "name": "Stranger Theme Upside Down",
+    "author": "Stranger Theme (https://github.com/stranger-theme/stranger-theme)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#0d1117",
+      "base01": "#21252b",
+      "base02": "#2a3c4a",
+      "base03": "#7a8495",
+      "base04": "#c8c8c2",
+      "base05": "#f8f8f2",
+      "base06": "#fffffe",
+      "base07": "#ffffff",
+      "base08": "#e06c75",
+      "base09": "#d19a66",
+      "base0a": "#e5c07b",
+      "base0b": "#98c379",
+      "base0c": "#56b6c2",
+      "base0d": "#61afef",
+      "base0e": "#c678dd",
+      "base0f": "#a9723e"
+    }
+  },
   "summercamp": {
     "name": "summercamp",
     "author": "zoe firi (zoefiri.github.io)",
@@ -7338,6 +7614,29 @@
       "base0d": "#b3deef",
       "base0e": "#d3b987",
       "base0f": "#a16946"
+    }
+  },
+  "terafox": {
+    "name": "terafox",
+    "author": "EdenEast (https://github.com/EdenEast)",
+    "variant": "dark",
+    "colors": {
+      "base00": "#152528",
+      "base01": "#1d3337",
+      "base02": "#254147",
+      "base03": "#4e5157",
+      "base04": "#587b7b",
+      "base05": "#e6eaea",
+      "base06": "#cbd9d8",
+      "base07": "#eeeeee",
+      "base08": "#e85c51",
+      "base09": "#ff8349",
+      "base0a": "#fda47f",
+      "base0b": "#7aa4a1",
+      "base0c": "#a1cdd8",
+      "base0d": "#5a93aa",
+      "base0e": "#ad5c7c",
+      "base0f": "#cb7985"
     }
   },
   "terracotta": {
