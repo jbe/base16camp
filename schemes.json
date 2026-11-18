@@ -7261,13 +7261,13 @@
       "base05": "#e8d5d5",
       "base06": "#f4e1e1",
       "base07": "#ffffff",
-      "base08": "#ff55aa",
+      "base08": "#ff6b6b",
       "base09": "#ff6b6b",
-      "base0a": "#bca89f",
-      "base0b": "#8b7355",
-      "base0c": "#d19a66",
+      "base0a": "#d19a66",
+      "base0b": "#8fae7e",
+      "base0c": "#7fb5b0",
       "base0d": "#c678dd",
-      "base0e": "#e06c75",
+      "base0e": "#ff55aa",
       "base0f": "#d74343"
     }
   },
@@ -7289,8 +7289,8 @@
       "base0a": "#ebcb8b",
       "base0b": "#a3be8c",
       "base0c": "#88c0d0",
-      "base0d": "#b48ead",
-      "base0e": "#d4a574",
+      "base0d": "#81a1c1",
+      "base0e": "#b48ead",
       "base0f": "#a85f48"
     }
   },
@@ -7335,8 +7335,8 @@
       "base0a": "#ffdc00",
       "base0b": "#2ecc40",
       "base0c": "#39cccc",
-      "base0d": "#b10dc9",
-      "base0e": "#7fdbff",
+      "base0d": "#7fdbff",
+      "base0e": "#b10dc9",
       "base0f": "#d75d00"
     }
   },
@@ -7357,9 +7357,9 @@
       "base09": "#de935f",
       "base0a": "#f0c674",
       "base0b": "#b5bd68",
-      "base0c": "#81a2be",
-      "base0d": "#b294bb",
-      "base0e": "#ff7f2a",
+      "base0c": "#8abeb7",
+      "base0d": "#81a2be",
+      "base0e": "#b294bb",
       "base0f": "#b66b37"
     }
   },
